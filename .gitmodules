@@ -1,0 +1,3 @@
+[submodule "cloudslit_docs/themes/docsy"]
+	path = cloudslit_docs/themes/docsy
+	url = https://github.com/google/docsy.git
