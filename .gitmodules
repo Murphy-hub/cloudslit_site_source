@@ -1,3 +1,4 @@
 [submodule "cloudslit_docs/themes/docsy"]
 	path = cloudslit_docs/themes/docsy
 	url = https://github.com/google/docsy.git
+	branch = 23d2740c2e517dfda77924fe53e7b629e45a9353
