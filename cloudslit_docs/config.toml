@@ -1,0 +1,45 @@
+baseURL = "https://taction.top/"
+languageCode = "zh"
+title = "Taction's Blog"
+theme = "docsy"
+
+# Google Analytics
+[services.googleAnalytics]
+id = "G-W0BYVCVSWK"
+
+# Mounts
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    lang = "en"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Algolia
+algolia_docsearch = true
+offlineSearch = false
+
+
+[params.ui]
+sidebar_menu_compact = false
+navbar_logo = true
+sidebar_search_disable = true

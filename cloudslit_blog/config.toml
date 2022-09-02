@@ -1,0 +1,45 @@
+baseURL = "https://www.ztalab.xyz/ztalab_blog/"
+languageCode = "en-us"
+title = "ZTALAB Blog"
+theme = "hamburg"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = "true"
+
+[permalinks]
+  posts = "/:title/"
+
+[params]
+  # Short subtitle/tagline. This is displayed in the header.
+  themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+  # To load additional CSS styles
+  #customCSS = ['hamburg.css']
+  # Show this very user-friendly and absolutely not annoying GDPR notice at the bottom of the page
+  ShowGDPRNotice = true
+	#subtitle = "The great example site of the hugo-hamburg-theme"
+	# Since 0.57.0 there's the concept of "main sections". The files for the section "posts" are in "./content/posts/".
+	mainSections = ["posts"]
+
+
+[languages]
+  [languages.en]
+      languageCode = "en"
+      languageName = "English"
+      subtitle = "Record the bits and pieces of ZTALAB."
+      # Copyright notice. This is displayer in the footer.
+      copyright = "&copy 2022 ZTALAB "
+      [languages.en.menu]
+          [[languages.en.menu.main]]
+            name = "Categories"
+            identifier = "categories"
+            url = "/categories"
+            weight = "1"
+          [[languages.en.menu.main]]
+            name = "Tags"
+            identifier = "tags"
+            url = "/tags"
+            weight = "2"
+          [[languages.en.menu.main]]
+            name = "ZTALAB"
+            identifier = "ztalab"
+            url = "https://www.ztalab.xyz"
+            weight = "3"

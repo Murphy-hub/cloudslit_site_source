@@ -1,0 +1,70 @@
+[[list]]
+    title = "Bruce Lee"
+    url = "https://github.com/gitsrc"
+    image = "https://user-images.githubusercontent.com/52234994/163989576-f4d48dad-8299-40e4-8a4e-a241717070d9.png"
+    text = """
+       Cloud native, blockchain, information security enthusiasts, and many open source community participants.
+    """
+[[list]]
+    title = "Jackson Xu"
+    url = "https://github.com/dataorigin"
+    image = "https://user-images.githubusercontent.com/52234994/163986015-d91f48b3-c7aa-4d7f-9d1a-79077ed9965d.png"
+    text = """
+       Veteran player in the field of containers and cloud native, loves technology and open source community, focuses on the field of cloud native container orchestration and scheduling, member of Kubernetes community, one of the co-initiators of CNCF Karmada project.
+    """
+[[list]]
+    title = "Terence"
+    url = "https://github.com/Taction"
+    image = "https://user-images.githubusercontent.com/52234994/163987838-14b21912-18b3-49c7-8927-c1ff1c2728c8.png"
+    text = """
+       Focus on cloud native, dapr approver, knative member, active open source contributor.
+    """
+[[list]]
+    title = "Robert"
+    url = "https://github.com/rovast"
+    image = "https://user-images.githubusercontent.com/52234994/163989467-529ad61a-c743-48e1-8906-6b789d8d8cdc.png"
+    text = """
+       A stupid man.
+    """
+[[list]]
+    title = "Jimmy Xu"
+    url = "https://github.com/pretty66"
+    image = "https://user-images.githubusercontent.com/52234994/163986010-8a274fc4-c7bb-4374-bd73-2c06e3c54dcb.png"
+    text = """
+       Cloud Native, Service Mesh, Network Middleware, Actively Embrace Open Source.
+    """
+[[list]]
+    title = "Hamilton"
+    url = "https://github.com/nisainan"
+    image = "https://user-images.githubusercontent.com/52234994/163987652-8e005185-6bc7-4050-a2b3-4c08890b3152.png"
+    text = """
+       Cloud native, serviceMesh, network, open source enthusiasts.
+    """
+[[list]]
+    title = "Murphy"
+    url = "https://github.com/Murphy-hub"
+    image = "https://user-images.githubusercontent.com/52234994/163985917-3324ab6f-71ce-4553-a955-e14d63421676.png"
+    text = """
+        Cloud native, gateway, zero trust network security, keep running
+    """
+[[list]]
+    title = "Lrving"
+    url = "https://github.com/Jchicode"
+    image = "https://user-images.githubusercontent.com/52234994/163986036-68c55154-27dd-421d-8042-222929f39a11.png"
+    text = """
+       Focus on cloud native, time series database field.
+    """
+[[list]]
+    title = "Robin"
+    url = "https://github.com/debin-ge"
+    image = "https://user-images.githubusercontent.com/52234994/163985989-4251b487-8582-43e1-ad32-d0d273294bcd.png"
+    text = """
+       Involved in cloud-native, kong gateway projects. Strong facilitator of O&M events.
+    """
+[[list]]
+    title = "mayocream"
+    url = "https://github.com/mayocream"
+    image = "https://user-images.githubusercontent.com/52234994/163989566-0c03af0a-91d0-498a-bab9-c276f936bbc2.png"
+    text = """
+       Cloud Native | Full Stack | Freelance Translator | Life is Strange.
+    """

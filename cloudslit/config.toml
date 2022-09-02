@@ -1,0 +1,39 @@
+baseURL = 'https://www.ztalab.xyz/'
+languageCode = 'en-us'
+title = 'ZTALAB'
+keywords = "ztalab,zero trust,safe,network"
+theme = "SimpleIntro"
+
+[params]
+    mainbg = "https://picsum.photos/1920/1080?blur=5"
+    description= "ZTALAB is a research and open source organization for zero trust architecture. We will gradually open source the projects we have incubated and ongoing projects to make our contribution to the zero-trust ecosystem. If you are also interested, or have any suggestions, please let us know and let us know. Let's work together to promote the construction of a zero-trust ecosystem."
+    name = "ZTALAB"
+    mainTitle = "ZTALAB"
+    mainText = "Zero Trust As a popular new information security framework, ZATLAB is committed to open source and promote zero trust related technologies and products. "
+
+[menus]
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "#projects"
+        weight="1"
+    [[menu.main]]
+        identifier = "blogs"
+        name = "Blogs"
+        url = "http://www.ztalab.xyz/ztalab_blog/"
+        weight="2"
+    [[menu.main]]
+        identifier = "WhitePaper"
+        name = "WhitePaper"
+        url = "http://www.ztalab.xyz/ztalab_blog/zeroaccess-whitepaper/"
+        weight="3"
+    [[menu.main]]
+        identifier = "OpenSource"
+        name = "OpenSource"
+        url = "https://github.com/ztalab"
+        weight="4"
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "http://www.ztalab.xyz/ztalab_about"
+        weight="5"

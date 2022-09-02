@@ -1,0 +1,12 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'About team'
+keywords = "ztalab,zero trust,safe,network"
+theme = "SimpleIntro"
+
+[params]
+    mainbg = "https://picsum.photos/1920/1080?blur=5"
+    description= "We are a bunch of people: geeks, philosophers, musicians, craftsmen and Zen masters. We are focused and disciplined. We firmly believe that only with full dedication can we push boundaries and create miracles."
+    name = "ZATLAB member"
+    mainTitle = " "
+    mainText = "We are a bunch of people: geeks, philosophers, musicians, craftsmen and Zen masters. We are focused and disciplined. We firmly believe that only with full dedication can we push boundaries and create miracles."

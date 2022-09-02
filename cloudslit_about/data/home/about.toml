@@ -1,0 +1,26 @@
+title = "Welcome to ZTALAB"
+
+text = """
+We provide a series of zero-trust security infrastructure to help users better improve system security. Product composition:
+<li><b>ZACA</b>：Zero Trust CA Certificate System
+<li><b>ZASentinel</b>：Zero Trust Network Communication Sentinel provides peer-to-peer, multi-protocol, automatic networking, cross-CDN and other features for network communication.
+<li><b>ZAManager</b>：Zero Trust Control Center, providing certificate, authentication, permission and platform control capabilities.
+<li><b>ZAPortal</b>：The zero-trust management platform provides users with a control interface with low thresholds.
+
+"""
+
+[[link]]
+    icon = "fab fa-github"
+    url = "https://github.com/ztalab"
+[[link]]
+    icon = "fab fa-linkedin"
+    url = "#"
+[[link]]
+    icon = "fas fa-envelope"
+    url = "#"
+[[link]]
+    icon = "fab fa-instagram"
+    url = "#"
+[[link]]
+    icon = "fab fa-facebook"
+    url = "#"

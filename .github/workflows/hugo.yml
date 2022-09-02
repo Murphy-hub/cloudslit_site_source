@@ -1,0 +1,68 @@
+name: Generate Site
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v2
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
+          extended: true # 设置是否需要 extended 版本
+
+      - name: Build
+        run: |
+          cd ztalab
+          hugo --minify
+          pwd
+          ls -l ./public
+          cd ../ztalab_about
+          hugo --minify
+          pwd
+          ls -l ./public
+          cd ../ztalab_blog
+          hugo --minify
+          pwd
+          ls -l ./public
+
+      - name: Deploy-ztalab
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.personal_token }} # 另外还支持 github_token 和 personal_token
+          external_repository: ztalab/ZTALAB-Site # 修改为你的 GitHub Pages 仓库
+          publish_dir: ztalab/public
+          publish_branch: gh-pages
+          commit_message: ${{ github.event.head_commit.message }}
+          cname: www.ztalab.xyz
+          # 如果使用自定义域名，还需要添加下面一行配置
+          # cname: www.fournoas.com
+      - name: Deploy-ztalab-about
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.personal_token }} # 另外还支持 github_token 和 personal_token
+          external_repository: ztalab/ZTALAB-Site # 修改为你的 GitHub Pages 仓库
+          publish_dir: ztalab_about/public
+          publish_branch: gh-pages
+          destination_dir: ztalab_about
+          commit_message: ${{ github.event.head_commit.message }}
+          cname: www.ztalab.xyz
+          # 如果使用自定义域名，还需要添加下面一行配置
+          # cname: www.fournoas.com
+      - name: Deploy-ztalab-blog
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.personal_token }} # 另外还支持 github_token 和 personal_token
+          external_repository: ztalab/ZTALAB-Site # 修改为你的 GitHub Pages 仓库
+          publish_dir: ztalab_blog/public
+          publish_branch: gh-pages
+          destination_dir: ztalab_blog
+          commit_message: ${{ github.event.head_commit.message }}
+          cname: www.ztalab.xyz
+          # 如果使用自定义域名，还需要添加下面一行配置
+          # cname: www.fournoas.com
