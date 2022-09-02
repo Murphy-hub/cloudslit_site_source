@@ -1,20 +1,7 @@
 [[list]]
-    name = "What is ZeroAccess?"
-    icon = "https://res.cloudinary.com/malloc/image/upload/v1650339825/github/ztalab/icons8-blog-64_1_rckhfb.png"
+    name = "What is CloudSlit?"
+    icon = "https://user-images.githubusercontent.com/34047788/182298515-98238940-3d8a-4ce8-ab7b-c0a27666cf0a.png"
     text = """
-        ZeroAccess helps organizations improve information security by providing a better and simpler way to protect access to private network resources and applications.
+      Build a global web3 decentralized zero-trust security network，Building Cyber Sovereignty.
     """
-    url = "https://www.ztalab.xyz/ztalab_blog/zeroaccess-whitepaper"
-[[list]]
-    name = "Sentinel-MYSQL: Zero Trust Protection for MYSQL"
-    icon = "https://res.cloudinary.com/malloc/image/upload/v1650339825/github/ztalab/icons8-blog-64_1_rckhfb.png"
-    text = """
-        ZASentinel's zero-trust security component in the MYSQL environment enhances the security of MYSQL data access in a non-intrusive form, helping users to fully manage and control database access.
-    """
-    url = "https://github.com/ztalab/ZASentinel-MYSQL"
-[[list]]
-    name = "Web3 Dao community organized by ztalab"
-    icon = "https://res.cloudinary.com/malloc/image/upload/v1650339825/github/ztalab/icons8-blog-64_1_rckhfb.png"
-    text = """
-      In order to better build and motivate community members, ztalab is cooperating with weelink web3 dao platform to promote the construction of zero trust Dao community.
-    """
+    url = "https://www.cloudslit.xyz/cloudslit_blog/cloudslit-whitepaper"

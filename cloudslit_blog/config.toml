@@ -1,6 +1,6 @@
-baseURL = "https://www.ztalab.xyz/ztalab_blog/"
+baseURL = "https://www.cloudslit.xyz/cloudslit_blog/"
 languageCode = "en-us"
-title = "ZTALAB Blog"
+title = "CLOUDSLIT Blog"
 theme = "hamburg"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = "true"
@@ -24,9 +24,9 @@ defaultContentLanguageInSubdir = "true"
   [languages.en]
       languageCode = "en"
       languageName = "English"
-      subtitle = "Record the bits and pieces of ZTALAB."
+      subtitle = "Record the bits and pieces of CLOUDSLIT."
       # Copyright notice. This is displayer in the footer.
-      copyright = "&copy 2022 ZTALAB "
+      copyright = "&copy 2022 CLOUDSLIT "
       [languages.en.menu]
           [[languages.en.menu.main]]
             name = "Categories"
@@ -39,7 +39,7 @@ defaultContentLanguageInSubdir = "true"
             url = "/tags"
             weight = "2"
           [[languages.en.menu.main]]
-            name = "ZTALAB"
-            identifier = "ztalab"
-            url = "https://www.ztalab.xyz"
+            name = "CLOUDSLIT"
+            identifier = "cloudslit"
+            url = "https://www.cloudslit.xyz"
             weight = "3"

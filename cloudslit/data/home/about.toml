@@ -1,17 +1,17 @@
-title = "Welcome to ZTALAB"
+title = "Welcome to CLOUDSLIT"
 
 text = """
-We provide a series of zero-trust security infrastructure to help users better improve system security. Product composition:
-<li><b>ZACA</b>：Zero Trust CA Certificate System
-<li><b>ZASentinel</b>：Zero Trust Network Communication Sentinel provides peer-to-peer, multi-protocol, automatic networking, cross-CDN and other features for network communication.
-<li><b>ZAManager</b>：Zero Trust Control Center, providing certificate, authentication, permission and platform control capabilities.
-<li><b>ZAPortal</b>：The zero-trust management platform provides users with a control interface with low thresholds.
+Build a global web3 decentralized zero-trust security network，Building Cyber Sovereignty.
+<li><b>Fullnode</b>：Anyone can run a full node, which hosts the metadata of the decentralized network, and provides a metadata networking and transaction matching platform.For all users and Dao's data, we use Filecoin's web3.storage decentralized storage of user data.
+<li><b>Provider</b>：Our nodes realize automatic networking through peer discovery and routing through libp2p kademlia DHT and IPFs networks, and realize data synchronization between multiple nodes through libp2p's PubSub function.
+<li><b>Contract</b>：We use nervos to deploy smart contracts.Provide a safe trading process and a safe trading environment.
+<li><b>Client</b>：The client software user connects to the provider to establish a zero trust network security tunnel.
 
 """
 
 [[link]]
     icon = "fab fa-github"
-    url = "https://github.com/ztalab"
+    url = "https://github.com/cloudslit"
 [[link]]
     icon = "fab fa-linkedin"
     url = "#"

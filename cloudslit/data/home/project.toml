@@ -1,23 +1,29 @@
 [[list]]
-    title = "ZASentinel"
-    url = "https://github.com/ztalab/ZASentinel"
-    image = "https://res.cloudinary.com/malloc/image/upload/v1650338608/github/ztalab/ZASentinel/twitter_header_photo_1_bzwjlc.png"
+    title = "Fullnode"
+    url = "https://github.com/CloudSlit/cloudslit/tree/main/fullnode"
+    image = "https://user-images.githubusercontent.com/52234994/179184171-f881f3ee-e7ca-45ad-94e1-813b9964e524.png"
     text = """
-       Zero Trust Network Communication Sentinel provides peer-to-peer, multi-protocol, 
-       automatic networking, cross-CDN and other features for network communication.
+        Anyone can run a full node, which hosts the metadata of the decentralized network, and provides a metadata networking and transaction matching platform.
+        For all users and Dao's data, we use Filecoin's web3.storage decentralized storage of user data.
     """
 [[list]]
-    title = "ZACA"
-    url = "https://github.com/ztalab/ZACA"
-    image = "https://res.cloudinary.com/malloc/image/upload/v1650338520/github/ztalab/zaca/facebook_cover_photo_1_bw1k6x.png"
+    title = "Provider"
+    url = "https://github.com/CloudSlit/cloudslit/tree/main/provider"
+    image = "https://user-images.githubusercontent.com/52234994/179186444-81e0f4de-a2c1-4607-bf66-275d20c2fe0c.png"
     text = """
-        Zero Trust CA Certificate System，provide certificate system, OCSP, CA SDK.
+        Our nodes realize automatic networking through peer discovery and routing through libp2p kademlia DHT and IPFs networks, and realize data synchronization between multiple nodes through libp2p's PubSub function.
     """
 [[list]]
-    title = "ZASentinel-MYSQL"
-    url = "https://github.com/ztalab/ZASentinel-MYSQL"
-    image = "https://res.cloudinary.com/malloc/image/upload/v1650338766/github/ztalab/ZASentinel-mysql/twitter_header_photo_1_u228mf.png"
+    title = "Contract"
+    url = "https://github.com/CloudSlit/cloudslit/tree/main/contract"
+    image = ""
     text = """
-        Sentinel's zero-trust security component in the MYSQL environment enhances 
-        the security of MYSQL data access in a non-invasive form.
+        We use nervos to deploy smart contracts.Provide a safe trading process and a safe trading environment.
+    """
+[[list]]
+    title = "Client"
+    url = "https://github.com/CloudSlit/cloudslit/tree/main/fullnode"
+    image = "https://user-images.githubusercontent.com/52234994/179190148-ebd19f1d-90f0-4377-a57d-7c4942d5e0b3.png"
+    text = """
+        The client software user connects to the provider to establish a zero trust network security tunnel.
     """
